@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+header{
+    background-color: #3B3838;
+}
+header h2{
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 154px;
+}
