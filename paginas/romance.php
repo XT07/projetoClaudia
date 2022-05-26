@@ -16,12 +16,12 @@
         </ul>
     </header>
     <div class="coluna-1">
-        <h3><a href="romance.php">ROMANCE</a></h3>
+        <h3>ROMANCE</h3>
     </div>
     <div class="coluna-2">
-    <h3><a href="terror.php">TERROR</a></h3>
+        <h3>TERROR</h3>
     </div>
     <div class="coluna-3">
-    <h3><a href="aventura.php" class="tema">AVENTURA</a></h3>
+        <h3>AVENTURA</h3>
     </div>
 </body>

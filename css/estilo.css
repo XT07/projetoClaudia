@@ -52,9 +52,9 @@ header{
 }
 .pesq{
     float: left;
-    margin-left: 30px;
+    margin-left: 5%;
     margin-top: 45px;
-    width: 450px;
+    width: 42%;
     padding: 15px;
     border-radius: 25px;
     border-color: none;
@@ -72,7 +72,7 @@ header{
 }
 .logh2{
     margin: 0;
-    margin-left: 30px;
+    margin-left: 7%;
     font-size: 14px;
     color: white;
     border: 3px solid white;
@@ -91,4 +91,75 @@ header{
     margin-top: 40px;
     margin-right: 60px;
     width: 60px;
+}
+.coluna-1{
+    width: 32.9%;
+    float: left;
+    margin: 0;
+    padding-bottom: 16.1%;
+    border-right: 3px solid black;
+}
+.coluna-1:hover{
+    background-color: red;
+    color: white;
+}
+.coluna-1 h3{
+    text-align: center;
+    padding-top: 150px;
+}
+.coluna-2{
+    width: 33.1%;
+    float: left;
+    margin: 0;
+    padding-bottom: 16.1%;
+    border-right: 3px solid black;
+}
+.coluna-2 h3{
+    text-align: center;
+    padding-top: 150px;
+}
+.coluna-2:hover{
+    background-color: black;
+    color: white;
+}
+.coluna-3{
+    width: 33.4%;
+    float: left;
+    margin: 0;
+    padding-bottom: 16.1%;
+}
+.coluna-3 h3{
+    text-align: center;
+    padding-top: 150px;
+}
+.coluna-3:hover{
+    background-color: green;
+    color: white;
+}
+.linkC a {
+    color: white;
+    text-decoration: none;
+}
+.linkC {
+    list-style: none;
+    margin: 0;
+    padding-left: 25%;
+}
+.linkC li {
+    display: inline-block;
+    margin-right: 20%;
+}
+.on{
+    margin-bottom: 20px;
+}
+.on a{
+    margin: 0;
+    font-size: 14px;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 30px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
 }
