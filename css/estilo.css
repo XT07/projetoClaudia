@@ -52,9 +52,9 @@ header{
 }
 .pesq{
     float: left;
-    margin-left: 5%;
+    margin-left: 50px;
     margin-top: 45px;
-    width: 42%;
+    width: 600px;
     padding: 15px;
     border-radius: 25px;
     border-color: none;
@@ -88,31 +88,34 @@ header{
 .carrinho{
     float: right;
     margin: 0;
+    margin-left: 25px;
     margin-top: 40px;
     margin-right: 60px;
     width: 60px;
 }
 .coluna-1{
-    width: 32.9%;
+    text-align: center;
+    width: 425px;
     float: left;
     margin: 0;
     padding-bottom: 16.1%;
-    border-right: 3px solid black;
 }
 .coluna-1:hover{
     background-color: red;
-    color: white;
 }
 .coluna-1 h3{
     text-align: center;
     padding-top: 150px;
 }
+.coluna-1:hover a{
+    color: white;
+}
 .coluna-2{
-    width: 33.1%;
+    text-align: center;
+    width: 412.2px;
     float: left;
     margin: 0;
     padding-bottom: 16.1%;
-    border-right: 3px solid black;
 }
 .coluna-2 h3{
     text-align: center;
@@ -120,10 +123,13 @@ header{
 }
 .coluna-2:hover{
     background-color: black;
+}
+.coluna-2:hover a{
     color: white;
 }
 .coluna-3{
-    width: 33.4%;
+    text-align: center;
+    width: 431.2px;
     float: left;
     margin: 0;
     padding-bottom: 16.1%;
@@ -134,6 +140,8 @@ header{
 }
 .coluna-3:hover{
     background-color: green;
+}
+.coluna-3:hover a{
     color: white;
 }
 .linkC a {
@@ -143,11 +151,11 @@ header{
 .linkC {
     list-style: none;
     margin: 0;
-    padding-left: 25%;
+    padding-left: 20%;
 }
 .linkC li {
     display: inline-block;
-    margin-right: 20%;
+    margin-right: 15%;
 }
 .on{
     margin-bottom: 20px;
@@ -162,4 +170,65 @@ header{
 }
 a{
     text-decoration: none;
+}
+footer{
+    background-color: #3B3838;
+    border-top: 5px solid orange;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.tema{
+    color: black;
+}
+.coluna-1t{
+    text-align: center;
+    width: 29%;
+    float: left;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.coluna-2t{
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.coluna-3t{
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.imgr1{
+    width: 200px;
+}
+.imgr2{
+    width: 217px;
+}
+.imgr3{
+    width: 205px;
+}
+.imgt1{
+    width: 200px;
+}
+.imgt2{
+    width: 209px;
+}
+.imgt3{
+    width: 211px;
+}
+.imga1{
+    width: 208px;
+}
+.imga2{
+    width: 209px;
+}
+.imga3{
+    width: 219px;
 }

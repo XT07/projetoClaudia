@@ -13,15 +13,20 @@
             <li><a href="cupom.php">CUPOM</a></li>
             <li class="on"><a href="home.php">TEMAS</a></li>
             <li><a href="pague_um_pix.php">PAGUE COM PIX</a></li>
+            <li><a href="">SOBRE</a></li>
         </ul>
     </header>
     <div class="coluna-1">
-        <h3><a href="romance.php">ROMANCE</a></h3>
+        <h3><a href="romance.php" class="tema">ROMANCE</a></h3>
     </div>
     <div class="coluna-2">
-    <h3><a href="terror.php">TERROR</a></h3>
+        <h3><a href="terror.php" class="tema">TERROR</a></h3>
     </div>
     <div class="coluna-3">
-    <h3><a href="aventura.php" class="tema">AVENTURA</a></h3>
+        <h3><a href="aventura.php" class="tema">AVENTURA</a></h3>
     </div>
+    <div class="clear"></div>
 </body>
+<?php
+    require("../template/footer.php");
+?>

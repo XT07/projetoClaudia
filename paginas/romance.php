@@ -13,15 +13,23 @@
             <li><a href="cupom.php">CUPOM</a></li>
             <li class="on"><a href="home.php">TEMAS</a></li>
             <li><a href="pague_um_pix.php">PAGUE COM PIX</a></li>
+            <li><a href="">SOBRE</a></li>
         </ul>
     </header>
-    <div class="coluna-1">
-        <h3>ROMANCE</h3>
+    <div class="coluna-1t">
+        <img src="../img/r1.png" class="imgr1"><br>
+        <h3>Preço: R$ 89,99</h3>
     </div>
-    <div class="coluna-2">
-        <h3>TERROR</h3>
+    <div class="coluna-2t">
+        <img src="../img/r2.png" class="imgr2"><br>
+        <h3>Preço: R$ 99,50</h3>
     </div>
-    <div class="coluna-3">
-        <h3>AVENTURA</h3>
+    <div class="coluna-3t">
+    <img src="../img/r3.png" class="imgr3"><br>
+        <h3>Preço: R$ 100,00</h3>
     </div>
+    <div class="clear"></div>
 </body>
+<?php
+    require("../template/footer.php");
+?>
