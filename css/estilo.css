@@ -232,3 +232,17 @@ footer{
 .imga3{
     width: 219px;
 }
+@media(max-width: 1100px){
+    .pesq{
+        width: 425px;
+    }
+    .coluna-3{
+        width: 335px;
+    }
+    .coluna-2{
+        width: 350px;
+    }
+    .coluna-1{
+        width: 400px;
+    }
+}
